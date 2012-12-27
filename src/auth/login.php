@@ -16,7 +16,6 @@
 	}else{
 		//$loc = '../../index.php?login=false&badpass=true';
 		echo('Unfortunately the login failed. Check your username and password.');
-		//echo($json[finduser($username,$json)]['password']." ".hash("sha512",$password));
 	}
 	
 	function finduser($username,$array){
